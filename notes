@@ -1,0 +1,177 @@
+Login   - doesn’t need a differ validation
+Form
+PromoCode
+Billing
+
+Priority to select automation tool autify,  katalon etc
+They require a tool which is easy to use and easy to maintain
+		zaptest - can do integration testing
+		testing whiz - need to know how it works
+    
+    
+Mouse left click
+
+Private Declare Sub mouse_event Lib "user32" (ByVal dwFlags As Long, ByVal dx As Long, ByVal dy As Long, ByVal cbuttons As Long, ByVal dwExtraInfo As Long)
+  
+Const MOUSEEVENTF_LEFTDOWN As Integer = 2
+Const MOUSEEVENTF_LEFTUP As Integer = 4
+Const MOUSEEVENTF_RIGHTDOWN As Integer = 8
+Const MOUSEEVENTF_RIGHTUP As Integer = 16
+  
+Sub test()
+  Application.Wait Now + TimeSerial(0, 0, 4)        'Wait long enough so you can see the click happen
+  mouse_event MOUSEEVENTF_LEFTDOWN, 0&, 0&, 0&, 0&  'Left click down
+  mouse_event MOUSEEVENTF_LEFTUP, 0&, 0&, 0&, 0&    'release left click
+End Sub
+
+
+Progress of QA Manual
+
+https://docs.google.com/spreadsheets/d/1o2kN6WksAP7ZssfKQuR4d34eLJAF_3qx_6n5OhCrwQQ/edit#gid=1938139708
+
+https://github.com/Peatix/QA/blob/master/For_QAtesm/dailyissue_template.md
+
+
+yumi_kosumi [3:24 PM]
+@yoko-u @jfrancisco131082
+related purchase ticket issues.
+- https://github.com/Peatix/peatix/issues/4189#issuecomment-484745576
+- https://github.com/Peatix/peatix/issues/4271#issuecomment-492511177
+
+
+
+
+NEC
+
+
+963-305-8381
+
+Create QA manual in draft and Yumi to add edit,
+
+Task to do;
+Doing manual for current release
+To do manual document on assigned feature from Yumi
+
+
+For autotest 
+Compare autify, Katalon and eclipse selenium automation
+How modularise the application
+
+Code coverage testing
+
+
+Api 
+
+Graph ql
+Graph ql mutations
+Subscription 
+
+https://github.com/Peatix/QA/tree/master/web/Role
+https://github.com/Peatix/azuki-android-2/issues/622
+https://github.com/Peatix/QA/blob/master/ADMIN/Status.md
+
+
+Mon meeting task to do
+Thurs meeting task done
+
+Tuesday and Thursday
+9AM MNL time
+
+
+Progress QA Manual - https://docs.google.com/spreadsheets/d/1o2kN6WksAP7ZssfKQuR4d34eLJAF_3qx_6n5OhCrwQQ/edit#gid=1938139708
+
+QA weekly notes template - https://github.com/Peatix/QA/blob/master/For_QAtesm/dailyissue_template.md
+
+
+Elastic search - prep upgrade	
+Log stash
+Circle ci
+Prove for perl
+
+***Thursday - 2 hours for presenting the automation and mapping of the structure of automation 1
+
+Macintosh HD⁩ ▸ ⁨Users⁩ ▸ ⁨jhonnefrancisco⁩ apache-maven-3.6.1
+
+
+Key	Function
+Command+A	Selects all items in the active window (icon view), all items
+in the column (column view), or all items in the list (cover flow
+view)
+Command+C	Copies selected items
+Command+D	Duplicates the selected item(s)
+Command+E	Ejects the selectedvolume
+Command+F	Displays the Find dialog
+Command+H	Hides All Finder windows
+Command+I	Shows info for selected item or items
+Command+J	Shows the view options for the active window
+Command+K	Displays the Connect to Server dialog
+Command+L	Creates an alias for the selected item
+Command+M	Minimizes the active window
+Command+N	Opens a new Finder window
+Command+O	Opens (or launches) the selected item
+Command+R	Shows the original for selected alias
+Command+T	Adds the selected item to the Sidebar
+Command+V	Pastes items from the Clipboard
+Command+W	Closes the active window
+Command+X	Cuts the selected items
+Command+Z	Undoes the last action (if possible)
+Command+,	Displays Finder Preferences
+Command+1	Shows the active window in icon mode
+Command+2	Shows the active window in list mode
+Command+3	Shows the active window in column mode
+Command+4	Shows the active window in cover flow mode
+Command+[	Moves back to the previous Finder location
+Command+]	Moves forward to the next Finder location
+Command+Del	Moves selected items to the Trash
+Command+up-arrow	Show enclosing folder
+Command+`	Cycles through windows
+Command+?	Displays the Mac OS X Help Viewer
+Command+Shift+A	Takes you to your Applications folder
+Command+Shift+C	Takes you to the top-level Computer location
+Command+Shift+G	Takes you to a folder that you specify
+Command+Shift+H	Takes you to your Home folder
+Command+Shift+I	Connects you to your iDisk
+Command+Shift+Q	Logs you out
+Command+Shift+N	Creates a new untitled folder in the active window
+Command+Shift+U	Takes you to your Utilities folder
+Command+Shift+Del
+Deletes the contents of the Trash
+Command+Control+Q			
+
+Command+Option+H	Lock screen
+
+Hides all windows except the Finder’s window(s)
+Command+Option+N	Creates a new Smart Folder
+Command+Option+T	Hides the Finder window toolbar
+Command+Option+Space	Opens the Spotlight window
+Command+Space	Opens the Spotlight menu
+F8	Choose another desktop using Spaces
+Control+up-arrow (or F3, depending on your keyboard model)	Displays the Mission Control screen
+Control+down-arrow (or Control+F3, depending on your keyboard
+model)	Shows all open windows for the current application using
+Mission Control
+F11 (or Command+F3, depending on your keyboard model)	Hides all windows to display the Desktop using Mission
+Control
+F12 (or F4, depending on your keyboard model)	Displays your Dashboard widgets
+Space	Quick Look
+STRANGE-LOOKING KEYS ON THE MACBOOK KEYBOARD
+New to the Macintosh world? Some keys on the MacBook keyboard may be mystifying. Whether you’re using Snow Leopard or an older version of Mac OS X, recognizing and using modifier keys will make your job easier. Here’s a look at the modifier keys on both MacBook and desktop keyboards:
+
+
+MAC OS X MAINTENANCE CHECKLIST
+Maintenance is vital if you want to keep Mac OS X Lion in tip-top condition for as long as possible. Maintaining your MacBook keeps it running fast and smooth. Basic housekeeping includes regular back-ups plus some other, less familiar, tasks. Check this table often, or print it and keep a copy near your laptop!
+
+Mac Maintenance Task	Schedule
+Check for updates with Software Update	Once a day (automatic setting)
+Back up with Time Machine	Automatic
+Defragment (Micromat TechTool Pro/Prosoft Engineering Drive
+Genius 3)	Once a week
+Repair Disk Permissions (Disk Utility)	Once a week
+Delete Unnecessary User Accounts (System Preferences)	As necessary
+Scan for viruses (Intego VirusBarrier X6, ClamXav 2)	Automatic
+Check all volumes (Disk Utility/ Micromat TechTool Pro)	Once a week
+Check for the latest drivers for your hardware	Once a month (or after installing new hardware)
+Delete temporary Internet cache files (Prosoft Engineering
+Drive Genius 3)
+
+
